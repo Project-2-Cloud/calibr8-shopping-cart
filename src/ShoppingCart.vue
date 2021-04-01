@@ -69,7 +69,8 @@ export default {
         if (this.numInCart == 0) {
           alert('Your cart is empty!');
           return
-        }    
+        }
+        this.$router.push("/checkout")
       } else {
           alert('Please login to checkout');
         return
