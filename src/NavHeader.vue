@@ -15,7 +15,6 @@
               {{ getUserName() }}
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Account Settings</a>
               <a v-if="isPartner" @click="onRegisterClicked" class="dropdown-item" href="#">Register Product</a>
               <a @click="onLogoutClicked" class="dropdown-item">Logout {{ userEmail }}</a>
             </div>
