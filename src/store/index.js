@@ -4,7 +4,7 @@ import axios from 'axios'
 
 Vue.use(Vuex)
 
-const url = "http://localhost:8000/products";
+var url;
 const headers = { Accept: "application/json" };
 
 export default new Vuex.Store({
@@ -58,6 +58,12 @@ export default new Vuex.Store({
      SET_PARTNER(state, partner) { 
       state.user.partner = partner;
     },
+    setUrls(state) {
+      state.endpoints.login = process.env.VUE_APP_AUTH_URL;
+      state.endpoints.products = process.env.VUE_APP_PRODUCTS_URL;
+      url = state.endpoints.products;
+      console.log(process.env);
+    }
   },
   actions: {
     async getProducts(state) {
