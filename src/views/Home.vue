@@ -3,11 +3,10 @@
     <div class="container">
       <div class="card">
         <h2>Factorio Servers</h2>
-        <p>We here at Calibr8 only offer the finest quality of Factorio servers. Our servers are the most cost
-          efficient, durable, flexible, modifiable of all the servers in the world.
-          Factorio is a game in which you build and maintain factories. You will be mining resources, researching
-          technologies, building infrastructure,
-          automating production and fighting enemies.</p>
+        <p>Rent your Factorio Server here! <p>
+         <p> Are you thinking about renting a Factorio server? The name of the game is to create, build and maintain factories. Besides popular mods like Shield Generators, Minable Intermediates and MicroController we offer regular backups. With our servers you can enjoy playing with your friends online.
+          Factorio servers from Calibr8 meet the highest requirements for the right price.
+          The best thing about us: If you want to rent a Factorio server with us, you can start playing right away. We have a free server for 40 hours a month, with this one you can see for yourself how much fun it is to play with friends online.</p>
       </div>
       <div>
         <div class="column">
